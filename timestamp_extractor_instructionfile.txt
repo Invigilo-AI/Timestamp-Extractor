@@ -19,6 +19,9 @@ Imports :
     5)skimage
 
 How to Use : 
+Import the class into your required file
+    => from timestamp_extraction import tse
+
 Create an object of the class tse with arguments of image (required) and path of the control images (default : ./control_images)
     => img1 = tse(image, path)
 
