@@ -6,12 +6,9 @@ This Python file contains 1 class, 5 private functions and 3 public functions
 
 Class name : tse
 
-Public functions : 
-
+Public functions 
     Function 1 : extraction_datetime
-
     Function 2 : extraction_dmy
-    
     Function 3 : extraction_time
 
 ### Requirements 
