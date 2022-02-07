@@ -23,24 +23,28 @@ Public functions :
 ### How to Use
 Import the class into your required file
 ```
-    => from timestamp_extraction import tse
+=> from timestamp_extraction import tse
 ```
 
 Create an object of the class tse with arguments of image (required) and path of the control images (default : ./control_images)
-```    => img1 = tse(image, path)
+```    
+=> img1 = tse(image, path)
 ```
 
 If you want the entire timestamp, use extraction_datetime()
 This returns date, month, year, hour, minute, second in this order
-```    => date, month, year, hour, minute, second = img1.extraction_datetime()
+```    
+=> date, month, year, hour, minute, second = img1.extraction_datetime()
 ```
 
 If you want just the date, month and year, use extraction_dmy()
 This returns date, month, year in this order
-```    => date, month, year = img1.extraction_datetime()
+```    
+=> date, month, year = img1.extraction_datetime()
 ```
 
 If you want the just the hour, minute and second, use extraction_time()
 This returns hour, minute, second in this order
-```    => hour, minute, second = img1.extraction_time()
+```    
+=> hour, minute, second = img1.extraction_time()
 ```
